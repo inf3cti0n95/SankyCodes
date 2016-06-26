@@ -1,9 +1,9 @@
 body{
   margin: 0px;
   padding: 0px;
-  height: 1000px;
   width: 100%;
   background: #f1f1f1;
+  overflow:hidden;
 }
 #logo{
   height: 100%;
@@ -16,7 +16,6 @@ body{
   width: 1000px;
  height: 800px;
   position: absolute;
-
 }
 
 #css3{
@@ -114,6 +113,7 @@ body{
   top: 60%;
   left: 50%;
   width: 50%;
+  z-index: -5;
   transform: translate(-50%, -50%);
 }
 #retina{
@@ -123,6 +123,7 @@ body{
   top: 60%;
   left: 50%;
   width: 50%;
+  z-index: -4;
   transform: translate(-50%, -50%);
 }
 

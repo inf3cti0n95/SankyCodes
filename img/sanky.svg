@@ -11,40 +11,6 @@
 		.st7{fill:#2E3032;}
 		.st8{fill:#2D2F32;}
 		.st9{fill:#2B2E31;}
-
-
-		#Retina1,#Retina2 {
-		  -webkit-animation-name: blink;
-		  -webkit-animation-duration: 6s;
-		  -webkit-animation-iteration-count: infinite; 
-		  -webkit-transform-origin: 50%;
-		  
-		  animation-name: blink;
-		  animation-duration: 6s;
-		  animation-iteration-count: infinite; 
-		  transform-origin: 50%;
-		}
-
-		@-webkit-keyframes blink { 
-		  0% { -webkit-transform: scaleX(1) scaleY(1); } 
-		  1% { -webkit-transform: scaleX(1.3) scaleY(0.1); } 
-		  2% { -webkit-transform: scaleX(1) scaleY(1); } 
-		  60% { -webkit-transform: scaleX(1) scaleY(1); } 
-		  61% { -webkit-transform: scaleX(1.3) scaleY(0.1);} 
-		  62% { -webkit-transform: scaleX(1) scaleY(1); } 
-		  100% { -webkit-transform: scaleX(1) scaleY(1); }
-		}
-
-
-		@keyframes blink { 
-		  0% { transform: scaleX(1) scaleY(1); } 
-		  1% { transform: scaleX(1.3) scaleY(0.1); } 
-		  2% { transform: scaleX(1) scaleY(1); } 
-		  60% { transform: scaleX(1) scaleY(1); } 
-		  61% { transform: scaleX(1.3) scaleY(0.1);} 
-		  62% { transform: scaleX(1) scaleY(1); } 
-		  100% { transform: scaleX(1) scaleY(1); }
-		}
 	</style>
 	<g id="Sanky">
 		<path id="XMLID_29_" class="st1" d="M225.3,277.5c2.3,6.2,15.8,6.2,21.3,6c6.8-0.2,14.8-0.2,20.5-4.2c0,0,0,0,0,0
@@ -149,9 +115,9 @@
 		c0,0,6.4,1.1,10.6,9.9c0,0,1.4-3.7,0-5.6c0,0,4.3-0.1,10.3,7.6c0,0,2-1.6,3.8,0.4c1.8,2,19.2,22.7,29.6,42.5c0,0,6.1,10.2,7.1,12
 		c1,1.8-2.9,32.5-3.9,40.6c0,0-4.5-1.9-6.9-2.6c0,0,3.7-16-1.9-31.5c0,0-0.7-5.2-10.9-1.8c-10.2,3.4-25.6,6.9-39.7,6.3
 		c-14.1-0.7-37.1-6.4-41.4-6.3c-4.3,0.1-13.7,4.1-14.3,5.8C191.3,141.1,191.3,158.6,194,167.1z"/>
-		<path id="Retina2" class="st6" d="M222,186.3l-5.1,4.9l2.1-6.7c-0.7-0.2-1.3-0.3-2.1-0.3c-3.9,0-7.1,3.2-7.1,7.1
+		<path id="Retina2" stroke="#FEFEFE" stroke-width="2px;" class="st6" d="M222,186.3l-5.1,4.9l2.1-6.7c-0.7-0.2-1.3-0.3-2.1-0.3c-3.9,0-7.1,3.2-7.1,7.1
 		c0,3.9,3.2,7.1,7.1,7.1c3.9,0,7.1-3.2,7.1-7.1C224,189.2,223.3,187.5,222,186.3z"/>
-		<path id="Retina1" class="st6" d="M281.6,186.3l-5.1,4.9l2.1-6.7c-0.7-0.2-1.3-0.3-2.1-0.3c-3.9,0-7.1,3.2-7.1,7.1
+		<path id="Retina1" stroke="#FEFEFE" stroke-width="2px;" class="st6" d="M281.6,186.3l-5.1,4.9l2.1-6.7c-0.7-0.2-1.3-0.3-2.1-0.3c-3.9,0-7.1,3.2-7.1,7.1
 		c0,3.9,3.2,7.1,7.1,7.1c3.9,0,7.1-3.2,7.1-7.1C283.5,189.2,282.8,187.5,281.6,186.3z"/>
 	</g>
 </svg>

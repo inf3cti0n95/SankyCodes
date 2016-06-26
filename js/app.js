@@ -10,6 +10,7 @@ var php = document.getElementById("php");
 var css3 = document.getElementById("css3");
 var hmtl5 = document.getElementById("html5");
 var topics = document.getElementsByClassName("topics");
+// var meta = document.getElementsByName("theme-color");
 
 
 js.addEventListener("mouseover",jsretina,false);
@@ -22,6 +23,27 @@ php.addEventListener("mouseover",phpretina,false);
 php.addEventListener("touchstart",phpretina,false);
 css3.addEventListener("mouseover",css3retina,false);
 css3.addEventListener("touchstart",css3retina,false);
+
+// js.addEventListener("click",function() {
+// 	document.querySelector('meta[name="theme-color"]').setAttribute("content", "#F7DF1E");
+
+// });
+// css3.addEventListener("click",function() {
+// 	document.querySelector('meta[name="theme-color"]').setAttribute("content", "#33A9DC");
+
+// });
+// sass.addEventListener("click",function() {
+// 	document.querySelector('meta[name="theme-color"]').setAttribute("content", "#CD6799");
+
+// });
+// php.addEventListener("click",function() {
+// 	document.querySelector('meta[name="theme-color"]').setAttribute("content", "#6082BB");
+
+// });
+// html5.addEventListener("click",function() {
+// 	document.querySelector('meta[name="theme-color"]').setAttribute("content", "#F16529");
+
+// });
 
 function jsretina(event) {
 	TweenMax.to("#retina", 0.2, {left:"51%",top:"59.5%"});
