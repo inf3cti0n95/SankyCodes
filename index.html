@@ -6,10 +6,87 @@
 	<link rel="stylesheet" type="text/css" href="css/logo.css">
 	<meta name="viewport" content="user-scalable=no" />
 	<meta name="theme-color" content="#000">
+	<script type="text/javascript" src="js/jquery file/jquery-2.2.4.min.js"></script>
+
+	<script type="text/javascript">
+		
+	$(document).ready(function(){
+
+		$("#php").click(function(){
+			$("#css3").css("display","none");
+			$("#html5").css("display","none");
+			$("#sass").css("display","none");
+			$("#js").css("display","none");
+			$("#sanky").css("display","none");
+			$("#retina").css("display","none");
+			// $("#logocontainer").animate({
+
+				
+			// },500);
+
+			
+
+			$( "#logocontainer" ).replaceWith( "<img class='topics' id='php' src='img/php.svg'>");	
+			$("#php").animate({
+				position:'absolute',
+				top:'60px',
+				left:'60px',
+				width:'120px'
+
+
+			},1000,function(){
+
+				$(".navi2").css("backgroundColor","#6082BB");
+				
+				document.getElementsByClassName("navi2")[0].style.opacity="1";
+				document.getElementsByClassName("navi2")[0].style.transition="opacity 2s";
+				//$( ".navi2" ).replaceWith( "<div class='navi'></div>");	
+
+			});
+		});
+
+		$("#css3").click(function(){
+			$("#php, #html5, #sass, #js, #sanky, #retina").css("display","none");
+			
+			// $("#logocontainer").animate({
+
+				
+			// },500);
+
+			
+
+			$( "#logocontainer" ).replaceWith( "<img class='topics' id='css3' src='img/css3.svg'>");	
+			$("#css3").animate({
+				position:'absolute',
+				top:'60px',
+				left:'60px',
+				width:'120px'
+
+
+			},500,function(){
+
+				$(".navi2").css("backgroundColor","#33A9D3");
+				
+				document.getElementsByClassName("navi2")[0].style.opacity="1";
+				document.getElementsByClassName("navi2")[0].style.transition="opacity 2s";
+				//$( ".navi2" ).replaceWith( "<div class='navi'></div>");	
+
+			});
+		});
+
+
+	});
+
+
+	</script>
 
 
 </head>
 <body>
+<div class="navi2">
+		
+
+</div>
 	<div id="logo">
 		<div id="logocontainer">
 			<img class="topics" id="css3" src="img/css3.svg">
